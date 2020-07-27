@@ -5,22 +5,16 @@ export function App() {
   return (
       <div>
         <Accordion
-            title="What is your return policy?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="Hi, what's your name?"
+            content="My name is Scooby Dooby Doo."
         />
         <Accordion
-            title="Which languages does you support?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="Which languages do you speak?"
+            content="I speak only animal langs."
         />
         <Accordion
-            title="Can I use a custom domain?"
-            content="
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-   </br>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-   </br>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-        />
+            title="And how old are you?"
+            content="I am  9 years old" />
       </div>
   );
 }
